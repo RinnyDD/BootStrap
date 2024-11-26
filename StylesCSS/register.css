@@ -1,1 +1,86 @@
+body {
+    background-image: url('BootStrap/Pics/register_image2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.registration{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+    background-color: rgba(0, 0, 0,.1);
+    width: 80%;
+    box-shadow: 5px 5px 10px #545454;
+    border-radius: 10px;
+}
+
+.registration_container{
+    display: flex;
+    min-height: 600px;
+}
+
+.registration_image{
+    background-image: url('BootStrap/Pics/register_image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: none;
+    flex-basis: 40%;
+    position: relative;
+}
+
+@media (min-width: 768px){
+    .registration_image{
+        display: block;
+        filter: brightness(1.5);
+    }
+}
+
+.registration_image .tittle{
+    color: #fff;
+    font-size: 70px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.registration_image .site{
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 14px;
+}
+
+.registration_image .overlay{
+    background-color: rgba(0, 0, 0,0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.registration_form{
+    padding: 60px 15px;
+    color: #fff;
+}
+
+.registration_form label {
+    font-size: 1.2rem; /* Increases font size */
+    font-weight: bold; /* Makes the font bold */
+    color: #ffffff; /* Dark gray color for better visibility */
+    display: block; /* Ensures the label is above the input field */
+    margin-bottom: 5px; /* Adds spacing between the label and the input box */
+}
+@media (min-width: 768px) {
+    .registration_form{
+        padding: 60px;
+        flex-basis: 60%;
+    }
+    
+}
 
