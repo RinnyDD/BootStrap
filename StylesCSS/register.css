@@ -1,1 +1,20 @@
 
+.registration_form{
+    padding: 60px 15px;
+    color: #fff;
+}
+
+.registration_form label {
+    font-size: 1.2rem; /* Increases font size */
+    font-weight: bold; /* Makes the font bold */
+    color: #ffffff; /* Dark gray color for better visibility */
+    display: block; /* Ensures the label is above the input field */
+    margin-bottom: 5px; /* Adds spacing between the label and the input box */
+}
+@media (min-width: 768px) {
+    .registration_form{
+        padding: 60px;
+        flex-basis: 60%;
+    }
+    
+}
