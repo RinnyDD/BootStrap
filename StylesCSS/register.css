@@ -1,5 +1,5 @@
 body {
-    background-image: url('BootStrap/Pics/register_image2.jpg');
+    background-image: url('/Pics/register_image2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
     background-color: rgba(0, 0, 0,.1);
     width: 80%;
     box-shadow: 5px 5px 10px #545454;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .registration_container{
@@ -24,7 +24,7 @@ body {
 }
 
 .registration_image{
-    background-image: url('BootStrap/Pics/register_image.jpg');
+    background-image: url('/Pics/register_image.jpg');
     background-size: cover;
     background-position: center;
     display: none;
