@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Pics/register_image2.jpg');
+    background-image: url('../Pics/register_image2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body {
 }
 
 .registration_image{
-    background-image: url('/Pics/register_image.jpg');
+    background-image: url('../Pics/register_image.jpg');
     background-size: cover;
     background-position: center;
     display: none;
