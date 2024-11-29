@@ -1,1 +1,10 @@
+.nav-item:hover{
+    background-color: rgba(255, 221, 0, 0.432);
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+.letter{
+    color: rgba(244, 238, 238, 0.759);
+    font-size: 20px;
+}
 
