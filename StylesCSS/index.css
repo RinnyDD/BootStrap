@@ -16,7 +16,6 @@
 }
 .img{
     width: 200px;
-    margin-left: 100px;
 }
 .navbar-brand {
     font-size: 2rem;
@@ -46,8 +45,6 @@ body {
     height: 400px !important;
 }
 .img2{
-    margin-left: 200px;
-    width: 1500px !important;
     height: 800px !important;
 }
 .back{
